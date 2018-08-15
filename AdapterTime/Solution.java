@@ -8,5 +8,11 @@ public class Solution {
         TotalTime totalTime = TimeManager.getCurrentTime();
         Time time = new TotalTimeAdapter(totalTime);
         System.out.println(time.getHours()+":"+time.getMinutes()+":"+time.getSeconds());
+        /*AdapterReverse*/
+        /*
+        Time time = new Time();
+        TotalTime totalTime = new TimeAdapter(time);
+        System.out.println(time.getTotalSeconds());
+        */
     }
 }
